@@ -4,7 +4,7 @@ import VueRouter from 'vue-router/dist/vue-router.common.js'
 
 Vue.use(VueRouter)
 
-import Example from './components/Index.vue'
+import Index from './components/Index.vue'
 
 const router = new VueRouter({
   mode: 'history',
