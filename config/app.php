@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'url' => 'http://nav.magentochina.org',
+    'url' => 'https://nav.magentochina.org',
 
     /*
     |--------------------------------------------------------------------------
