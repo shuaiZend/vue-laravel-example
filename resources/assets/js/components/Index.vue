@@ -15,7 +15,7 @@
   export default{
     data () {
       return {
-        msg: 'Vue - Laravel - Example',
+        msg: 'Vue - Laravel - Example - Index',
         author: 'Jiajian Chan',
         email: 'changejian@gmail.com'
       }
