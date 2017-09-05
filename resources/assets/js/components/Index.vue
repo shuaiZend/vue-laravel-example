@@ -19,9 +19,11 @@
 
 <script>
   export default{
-	el:'#list',
     data () {
-      jsondata;
+		return{
+			jsondata;
+			}
+
     },
 	methods:{
 		jsdata:function(){
