@@ -1,14 +1,20 @@
 <template>
-  <div class="container">
-    <div class="content">
-      <div class="title">{{ msg }}</div>
-      <div class="links">
-        <a href="https://pigjian.com">Author: {{ author }}</a>
-        <a href="https://pigjian.com">Email: {{ email }}</a>
-        <a href="https://github.com/jcc">GitHub</a>
-      </div>
-    </div>
-  </div>
+<div class="system-list">
+	<ul class="system" v-for="item in items">
+		<li>
+			<div class="background-image">
+				<div class="xlay">
+					<a href="#">{{ item.Name }}</a>
+				</div>
+			</div>
+			<div class="detail">
+				<div class="introduce">{{ item.Introduce }}</div>
+				<div class="Password">{{ item.Password }}</div>
+				<div class="Contact">{{ item.Contact }}</div>
+			</div>
+		</li>
+	</ul>
+</div>
 </template>
 
 <script>
