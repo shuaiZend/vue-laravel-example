@@ -26,7 +26,7 @@
 		jsdata:function(){
 			var _this = this;
 			this.$http.get("js/data.json").then(function (res) {
-				_this.jsondata = res.body.list;
+				jsondata = res.body.list;
 			});
 			}
 		}
