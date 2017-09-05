@@ -19,7 +19,7 @@
 
 <script>
   export default{
-	el:#list;
+	el:'#list',
     data () {
       jsondata;
     },
