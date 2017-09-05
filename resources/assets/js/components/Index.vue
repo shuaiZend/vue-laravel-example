@@ -16,24 +16,20 @@
 	</ul>
 </div>
 </template>
-
 <script>
-  export default{
-    data () {
-		return{
-			jsondata;
-			}
-
-    },
-	methods:{
-		jsdata:function(){
+	var systemList = new Vue({
+		el:'',
+		data:{
+			jsondata
+		},
+		methods:{
+			jsdata:function(){
 			var _this = this;
 			this.$http.get("js/data.json").then(function (res) {
 				jsondata = res.body.list;
 			});
-			}
-		}
-	}
+		}}
+})
 </script>
 
 <style>
